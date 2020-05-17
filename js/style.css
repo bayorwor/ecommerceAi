@@ -1,0 +1,48 @@
+body {
+  /* background-image: url("./img1.jpg"); */
+}
+h2,
+h3 {
+  color: white;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10%;
+  border: rgb(5, 5, 5) solid 2px;
+}
+#webcam-container {
+  margin: 10px;
+}
+#label-container {
+  display: flex;
+  background-color: #dedede;
+  width: 20%;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#btn,
+#upload {
+  width: 20%;
+  height: 30px;
+  background-color: #dedede;
+}
+#btncontainer {
+  display: flex;
+  margin: 10px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+#itemdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  width: 30%;
+  border: 1px solid #702121;
+}
